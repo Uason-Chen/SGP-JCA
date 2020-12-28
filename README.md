@@ -6,7 +6,7 @@ This repository holds the codebase for the paper:
 
 **Graph convolutional network with structure pooling and joint-wise channel attention for action recognition** Chen, Yuxin and Ma, Gaoqun and Yuan, Chunfeng and Li, Bing and Zhang, Hui and Wang, Fangshi and Hu, Weiming, Pattern Recognition 2020. [paper](https://www.sciencedirect.com/science/article/pii/S0031320320301242)
 
-![framework](./srcframework.png)
+![framework](./src/framework.png)
 
 
 
