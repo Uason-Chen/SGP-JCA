@@ -56,10 +56,10 @@ where `<dataset>` can be `nturgbd-cross-subject` or `nturgbd-cross-view`. The tr
 python main.py --config <work folder>/config.yaml --phase test --work-dir <work folder> --weights <work folder>/<weights>
 ```
 
-where `<weights>` is the model weights ended with `.pth`. For example, the provided pre-trained model on NTU-RGB+D Cross Subject can be evaluated by running the following command:
+where `<weights>` is the model weights ended with `.pt`. For example, the provided pre-trained model on NTU-RGB+D Cross Subject can be evaluated by running the following command:
 
 ```
-python main.py --config config/sgp+jca/nturgbd-cross-subject/test.yaml --phase test --work-dir ./weights --weights ./weights/ntucs.pth
+python main.py --config config/sgp+jca/nturgbd-cross-subject/test.yaml --phase test --work-dir ./weights --weights ./weights/ntucs.pt
 ```
 
 
