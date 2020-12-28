@@ -6,7 +6,7 @@ This repository holds the codebase for the paper:
 
 **Graph convolutional network with structure pooling and joint-wise channel attention for action recognition** Chen, Yuxin and Ma, Gaoqun and Yuan, Chunfeng and Li, Bing and Zhang, Hui and Wang, Fangshi and Hu, Weiming, Pattern Recognition 2020. [paper](https://www.sciencedirect.com/science/article/pii/S0031320320301242)
 
-![image-20201228101625384](C:\Users\Lenovo\Desktop\SGP+JCA_reorganize\src\framework.png)
+![framework](./srcframework.png)
 
 
 
@@ -20,7 +20,7 @@ This repository holds the codebase for the paper:
 ### Installation
 
 ```
-git clone xxxxxxx
+git clone https://github.com/Uason-Chen/SGP-JCA.git
 cd SGP-JCA
 pip install -e torchlight
 ```
