@@ -1,0 +1,37 @@
+# feeder
+feeder: feeders.feeder.Feeder
+train_feeder_args:
+  data_path: ./data/NTU-RGB-D/xview/train_data.npy
+  label_path: ./data/NTU-RGB-D/xview/train_label.pkl
+  vel: True
+test_feeder_args:
+  data_path: ./data/NTU-RGB-D/xview/val_data.npy
+  label_path: ./data/NTU-RGB-D/xview/val_label.pkl
+  vel: True
+
+# model
+model: model.sgp_jca.Model
+model_args:
+  drop_out: 0.1
+  num_class: 60
+  in_channels: 3
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d_sgp.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+  mask_learning: True
+
+#optim
+weight_decay: 0.0005
+base_lr: 0.1
+step: [30, 40]
+
+# training
+device: [0, 1, 2, 3]
+batch_size: 64
+test_batch_size: 64
+num_epoch: 50
+nesterov: True
+
+
